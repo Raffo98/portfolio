@@ -1,0 +1,89 @@
+@font-face {
+    font-family: vietnam-pro;
+    src: url(../assets/font/vietnam/BeVietnamPro-Medium.ttf);
+}
+
+@font-face {
+    font-family: domine;
+    src: url(../assets/font/domine/Domine-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFF;
+    color: #000;
+}
+
+.section {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 0;
+    gap: 20px;
+    margin: 0 30px 0 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+/* HOME */
+
+#nav {
+    font-family: vietnam-pro;
+    grid-column: 1 / span 4;
+    font-size: 1em;
+}
+
+#section-wrapper {
+    font-family: domine;
+    font-size: 5em;
+    grid-column: 1 / span 3;
+}
+
+#section-wrapper ul li{
+    padding-top: 20px;
+}
+
+#preview-gif {
+    grid-column: 4 / span 2;  
+}
+
+#contact-wrapper {
+    font-family: vietnam-pro;
+    font-size: 1em;
+    grid-column: 6 / span 3;
+    justify-self: end;
+    align-self: end;
+    padding-bottom: 40px;
+}
+
+#contact-wrapper ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+/* PROJECTS */
+
+#works {
+    grid-template-rows: 0;
+}
+
+#works>h1 {
+    grid-column: 1 / span 6;
+    font-size: 4em;
+    margin: 0;
+}
+
+#projects-wrapper {
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 4em;
+    grid-column: 3 / span 5;
+
+}
