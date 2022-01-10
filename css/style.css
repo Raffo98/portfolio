@@ -70,20 +70,17 @@ ul {
 
 /* PROJECTS */
 
-#works {
-    grid-template-rows: 0;
-}
-
-#works>h1 {
-    grid-column: 1 / span 6;
-    font-size: 4em;
-    margin: 0;
-}
-
 #projects-wrapper {
-    text-align: center;
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-size: 4em;
-    grid-column: 3 / span 5;
+    line-height: 140%;
+    grid-column: 1 / span 5;
+}
 
+/* ABOUT */
+
+#about-wrapper {
+    font-family: vietnam-pro;
+    font-size: 1em;
+    grid-column: 1 / span 5;
 }
