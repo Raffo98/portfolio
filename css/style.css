@@ -15,6 +15,12 @@ html {
 body {
     background-color: #FFF;
     color: #000;
+    margin: 0 10px;
+    cursor: url("../assets/images/cursor.svg");
+}
+
+#outer-wrapper {
+    overflow-y: hidden;
 }
 
 .section {
@@ -23,14 +29,12 @@ body {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
-    margin: 0 30px 0 30px;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
 }
-
 
 /* HOME */
 
@@ -39,13 +43,13 @@ ul {
     grid-column: 1 / span 4;
     grid-row: 1 / span 1;
     font-size: 1em;
-    padding-top: 40px;
+    padding-top: 5px;
 }
 
 #section-wrapper {
     font-family: artemisia;
-    line-height: 80%;
-    font-size: 5em;
+    line-height: 60%;
+    font-size: 4em;
     grid-column: 1 / span 3;
     grid-row: 1 / span 2;
 }
@@ -58,21 +62,34 @@ ul {
     padding-top: 20px;
 }
 
+#section-wrapper ul li a {
+    color: black;
+    text-decoration: none;
+    cursor: url("../assets/images/nino.jpeg"), auto !important;
+}
+
 #preview-gif {
     grid-column: 4 / span 2;
 }
 
 #contact-wrapper {
-    font-family: authentic-sans;
-    font-size: 1em;
     grid-column: 6 / span 3;
     grid-row: 3 / span 1;
     justify-self: end;
     align-self: end;
-    padding-bottom: 40px;
+    padding-bottom: 5px;
 }
 
 #contact-wrapper ul li {
+    font-family: authentic-sans;
+    font-size: 1em;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#contact-wrapper ul li {
+    font-family: authentic-sans;
+    font-size: 1em;
     display: inline-block;
     padding-left: 20px;
 }
@@ -89,107 +106,43 @@ ul {
     grid-row: 1 / span 2;
 }
 
-/* SINGLE PROJECT */
+/* SINGLE PAGE */
 
-* {
-    overflow-y: hidden;
-  }
-  
-  ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-  }
-  
-  .slide {
-    width: 100vw;
+#slide-one {
     height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 20px;
-  }
-  
-  .outer-wrapper {
-    width: 100vh;
-    height: 100vw;
-    transform: rotate(-90deg) translateX(-100vh);
-    transform-origin: top left;
-    overflow-y: scroll;
+    width: 100vw;
     overflow-x: hidden;
-    position: absolute;
-    
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-  
-  /* wrapper containing our slides */
-  .wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    width: 400vw;
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
-    overflow-y: hidden;
-  }
-  
+}
 
-  /* SLIDE ONE */
-
-.one {
-    margin-left: 30px;
-    grid-column: 1 / span 2;
-    width: 150vw;
-
+#slide-two {
+    height: 100vh;
 }
 
 #project-title {
-    font-family: artemisia;
-    text-transform: uppercase;
-    font-size: 6em;
+    line-height: 60%;
+    font-size: 4em;
+
+}
+
+#text-wrapper {
+    grid-row: 2;
     grid-column: 1 / span 3;
-    grid-row: 1 / 2;
-    margin-top: 5%;
 }
 
 #info-wrapper {
     font-family: authentic-sans;
-    grid-column: 1 / span 4;
-    grid-row: 2 / span 4;
-}
-
-#info {
     font-size: 1em;
+    margin-top: 40px;
 }
 
 #description {
-    padding-top: 35px;
-    font-size: 3em;
+    margin-top: 40px;
 }
 
 #imageone {
-    grid-column: 5 / span 4;
-    grid-row: 2 / 5;
+    grid-row: 2;
+    grid-column: 4 / span 3;
 }
-
- /* SLIDE TWO */
-  
-  .two {
-
-  }
-  
-  .three {
-    background: #0bbaa0;
-  }
-  
-  .four {
-    background: #00dfdf;
-  }
-  
-  /* @media screen and (max-width: 768px) {
-      .scrollbar {
-        -webkit-overflow-scrolling: touch;
-      }
-  } */
 
 /* ABOUT */
 
