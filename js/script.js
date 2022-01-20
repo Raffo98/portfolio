@@ -1,12 +1,11 @@
-const cursorRounded = document.querySelector('.rounded');
+//show preview image on hover
 
-
-const moveCursor = (e)=> {
-  const mouseY = e.clientY;
-  const mouseX = e.clientX;
-   
-  cursorRounded.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
- 
+function showPreviewImage(item) {
+  console.log("AO", item);
+  document.getElementById("preview-image").classList.remove("hide");
 }
 
-window.addEventListener('mousemove', moveCursor)
+document.querySelectorAll("#projects-wrapper ul li a").forEach((element, index) => {
+  console.log("trasuto");
+  element.addEventListener("mouseover", showPreviewImage(index));
+});
