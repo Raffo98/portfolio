@@ -1,11 +1,14 @@
 //show preview image on hover
 
-function showPreviewImage(item) {
-  console.log("AO", item);
-  document.getElementById("preview-image").classList.remove("hide");
-}
+document
+  .querySelectorAll("#projects-wrapper ul li a")
+  .forEach((element, index) => {
+    element.addEventListener("mouseover", function () {
+      document.querySelector("#preview-image img").src = "assets/images/preview-images/" + `${index}` + ".jpeg";
+      document.getElementById("preview-image").classList.remove("hide");
 
-document.querySelectorAll("#projects-wrapper ul li a").forEach((element, index) => {
-  console.log("trasuto");
-  element.addEventListener("mouseover", showPreviewImage(index));
-});
+    });
+    element.addEventListener("mouseout", function () {
+      document.getElementById("preview-image").classList.add("hide");
+    });
+  });
