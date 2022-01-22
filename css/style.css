@@ -53,6 +53,10 @@ a {
     padding-top: 5px;
 }
 
+#nav a {
+    text-decoration: underline;
+}
+
 #contact-wrapper {
     grid-column: 6 / span 3;
     grid-row: 4 / span 1;
@@ -124,13 +128,9 @@ a {
 /* SINGLE PAGE */
 
 #slide-one {
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
-}
-
-#slide-two {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 #text-wrapper {
@@ -140,6 +140,7 @@ a {
 }
 
 #project-title {
+    font-family: artemisia;
     font-size: 5em;
     margin-top: 40px;
 }
@@ -166,6 +167,7 @@ a {
 #link {
     list-style-type: 'WEB: ';
     padding-left: 20px;
+    text-decoration: underline;
 }
 
 #description {
@@ -173,13 +175,13 @@ a {
     margin-top: 40px;
 }
 
-#imageone {
+#image-0 {
     grid-row: 2 /span 3;
     grid-column: 4 / span 5;
     margin-top: 40px;
 }
 
-#imageone img {
+#image-0 img {
     width: 90%;
 }
 
