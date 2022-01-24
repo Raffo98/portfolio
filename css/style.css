@@ -119,7 +119,7 @@ a {
 }
 
 #projects-wrapper a:hover {
-    cursor: url(/assets/images/cursor.svg) 30 30, auto;
+    cursor: url(assets/images/cursor.svg) 30 30, auto;
 }
 
 #preview-image {
@@ -227,11 +227,11 @@ a {
   }
 
   .carousel-control.prev:hover {
-    cursor: url(/assets/images/left-arrow.svg) 30 25, auto;
+    cursor: url(assets/images/left-arrow.svg) 30 25, auto;
   }
 
   .carousel-control.next:hover {
-    cursor: url(/assets/images/right-arrow.svg) 30 25, auto;
+    cursor: url(assets/images/right-arrow.svg) 30 25, auto;
   }
   
   /* Other element styles */
