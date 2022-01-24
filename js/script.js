@@ -39,3 +39,5 @@ const scrollNext = () => {
 
 prev.addEventListener("click", scrollPrev);
 next.addEventListener("click", scrollNext);
+
+console.log("AOOAOAOAOOAOAO");
