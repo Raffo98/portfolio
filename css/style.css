@@ -85,7 +85,7 @@ a {
 }
 
 #section-wrapper a:hover {
-    cursor: url(/assets/images/cursor.svg) 30 25, auto;
+    cursor: url(../assets/images/cursor.svg) 30 25, auto;
 }
 
 #preview-gif {
