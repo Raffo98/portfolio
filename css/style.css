@@ -78,7 +78,7 @@ a {
 #section-wrapper {
     font-family: artemisia;
     line-height: 90%;
-    font-size: calc(73.5px + (73.5 - 64) * ((100vw - 576px) / (2560 - 576)));
+    font-size: calc(64px + (64 - 48) * ((100vw - 576px) / (2560 - 576)));
     grid-column: 1 / span 3;
     grid-row: 2 / span 2;
     margin-top: 40px;
@@ -107,7 +107,7 @@ a {
     font-family: artemisia;
     text-transform: uppercase;
     line-height: 90%;
-    font-size: calc(73.5px + (73.5 - 64) * ((100vw - 576px) / (2560 - 576)));
+    font-size: calc(64px + (64 - 48) * ((100vw - 576px) / (2560 - 576)));
     grid-column: 1 / span 6;
     grid-row: 2 / span 2;
     margin-top: 40px;
@@ -148,14 +148,13 @@ a {
     font-size: calc(16px + (16 - 16) * ((100vw - 576px) / (2560 - 576)));;
     grid-row: 2 / span 3;
     grid-column: 1 / span 3;
-    align-self: center;
-    margin-bottom: 40px;
 }
 
 #project-title {
     font-family: artemisia;
-    font-size: calc(73.5px + (73.5 - 64) * ((100vw - 576px) / (2560 - 576)));;
+    font-size: calc(64px + (64 - 48) * ((100vw - 576px) / (2560 - 576)));;
     line-height: 90%;
+    margin-top: 40px;
 }
 
 #info {
@@ -191,8 +190,8 @@ a {
 #res-0 {
     grid-row: 2 /span 3;
     grid-column: 4 / span 5;
-    align-self: center;
-    margin-bottom: 40px;
+    align-self: top;
+    margin-top: 40px;
 }
 
 #res-0 video {
