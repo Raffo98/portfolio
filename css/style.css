@@ -27,7 +27,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 40px 1fr 1fr 1fr;
+    grid-template-rows: 40px 1fr 1fr 1fr 40px;
     gap: 20px;
 }
 
@@ -60,7 +60,7 @@ a {
 
 #contact-wrapper {
     grid-column: 6 / span 3;
-    grid-row: 4 / span 1;
+    grid-row: 5 / span 1;
     justify-self: end;
     align-self: end;
     padding-bottom: 5px;
@@ -141,7 +141,6 @@ a {
 
 #slide-one {
     width: 100%;
-    overflow: hidden;
 }
 
 #text-wrapper {
@@ -192,6 +191,7 @@ a {
     grid-column: 4 / span 5;
     align-self: top;
     margin-top: 40px;
+    width: 100%;
 }
 
 #res-0 video {
