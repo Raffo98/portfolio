@@ -226,11 +226,11 @@ a {
   }
 
   .carousel-control.prev:hover {
-    cursor: url(../assets/images/left-arrow.svg) 30 25, auto;
+    cursor: url(../assets/images/left-arrow.svg) 30 60, auto;
   }
 
   .carousel-control.next:hover {
-    cursor: url(../assets/images/right-arrow.svg) 30 25, auto;
+    cursor: url(../assets/images/right-arrow.svg) 30 60, auto;
   }
   
   /* Other element styles */
