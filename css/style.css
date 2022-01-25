@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: artemisia;
-    src: url(../assets/font/GFSArtemisia-Bold.woff2);
+    src: url(../assets/font/GFSArtemisia-Regular.woff2);
 }
 
 html {
@@ -293,6 +293,13 @@ a {
       clear: both;
     }
   }
+
+  .counter-img p {
+      font-family: artemisia;
+      font-size: calc(16px + (16 - 16) * ((100vw - 576px) / (2560 - 576)));
+  }
+
+
 
 /*TO DO NEXT TIME*/
 
