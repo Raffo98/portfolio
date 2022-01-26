@@ -1,5 +1,4 @@
 //show preview image on hover
-
 document
   .querySelectorAll("#projects-wrapper ul li a")
   .forEach((element, index) => {
