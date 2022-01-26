@@ -261,7 +261,7 @@ a {
   .carousel-viewport .items {
     position: relative;
     display: flex;
-    transition: transform 500ms cubic-bezier(0.25, 1, 0.5, 1);
+    /* transition: transform 500ms cubic-bezier(0.25, 1, 0.5, 1); */
   }
   
   .carousel-viewport .item {

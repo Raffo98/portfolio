@@ -22,8 +22,7 @@ const active = "active";
 let current = 0;
 
 count.innerText = (current + 1) + "/" + items.children.length;
-
-console.log(count);
+console.log(items.children);
 
 const scrollToCurrent = () => {
   items.style.transform = `translateX(${current * -100}%`;
