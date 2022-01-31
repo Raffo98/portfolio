@@ -101,7 +101,7 @@ a {
 #section-wrapper {
     font-family: artemisia;
     line-height: 90%;
-    font-size: clamp(36px, 10vw, 80px);
+    font-size: clamp(36px, 10vw, 75px);
     grid-column: 1 / span 3;
     grid-row: 2 / span 2;
     margin-top: 40px;
@@ -130,7 +130,7 @@ a {
     font-family: artemisia;
     text-transform: uppercase;
     line-height: 90%;
-    font-size: clamp(36px, 10vw, 80px);
+    font-size: clamp(36px, 10vw, 75px);
     grid-column: 1 / span 6;
     grid-row: 2 / span 2;
     margin-top: 40px;
@@ -175,7 +175,7 @@ a {
     grid-column: 1 / span 3;
     margin-top: 40px;
     font-family: artemisia;
-    font-size: clamp(36px, 5vw, 80px);
+    font-size: clamp(36px, 5vw, 75px);
     line-height: 90%;
 }
 
@@ -501,7 +501,7 @@ Responsive
         grid-row: 4;
     }
 
-    #contact-wrapper {
+    #about #contact-wrapper {
         grid-row: 6;
     }
 }
